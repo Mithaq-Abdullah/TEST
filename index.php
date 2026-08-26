@@ -19,9 +19,16 @@ $message = "Hello World";
         h1 {
             color: #333;
         }
+        h1 a {
+            color: inherit;
+            text-decoration: none;
+        }
+        h1 a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
-    <h1><?php echo htmlspecialchars($message); ?></h1>
+    <h1><a href="about.php"><?php echo htmlspecialchars($message); ?></a></h1>
 </body>
 </html>
