@@ -9,6 +9,7 @@ $message = "Hello World";
     <style>
         body {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
@@ -26,9 +27,13 @@ $message = "Hello World";
         h1 a:hover {
             text-decoration: underline;
         }
+        p a {
+            color: #333;
+        }
     </style>
 </head>
 <body>
     <h1><a href="about.php"><?php echo htmlspecialchars($message); ?></a></h1>
+    <p><a href="products.php">View Products</a></p>
 </body>
 </html>
