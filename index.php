@@ -36,5 +36,6 @@ $message = "Hello World";
     <h1><a href="about.php"><?php echo htmlspecialchars($message); ?></a></h1>
     <p><a href="products.php">View Products</a></p>
     <p><a href="accounts.php">View Accounts</a></p>
+    <p><a href="categories.php">View Categories</a></p>
 </body>
 </html>
